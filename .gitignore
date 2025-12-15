@@ -43,3 +43,5 @@ Thumbs.db
 
 # Qodo agent files
 .qodo/
+
+.vercel

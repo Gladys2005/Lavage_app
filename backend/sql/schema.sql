@@ -31,8 +31,3 @@ CREATE TABLE commandes (
     date_creation TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
 
--- Insérer quelques services par défaut
-INSERT INTO services (nom, description, tarif_kg) VALUES
-('Nettoyage à sec', 'Nettoyage professionnel à sec pour tous types de vêtements.', 5.50),
-('Repassage', 'Service de repassage au poids.', 3.00),
-('Complet', 'Nettoyage à sec et repassage.', 8.00);
